@@ -1,7 +1,17 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
-            #apDiv1 {
+/* ************************************APORTE DIAZ RAMIREZ EDWIN ************************************/
+
+	#conta{
+	position: absolute;
+	width: 1398px;
+	height: 68px;	
+	left: 145px;
+	top: 22px;
+		}
+/* ************************************APORTE DIAZ RAMIREZ EDWIN ************************************/
+    		#apDiv1 {
 	position: absolute;
 	width: 1000px;
 	height: 168px;
