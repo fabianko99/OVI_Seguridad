@@ -435,21 +435,23 @@ p {
 #autores{
 
 	background:#fff;
-	height:220px;
+	/* height:220px; */
 	width:700px;
 	padding-left: 10px;
-	padding-top: 10px;
+	padding-top: 0px;
 	
 	
 }
-
+.imgAutores{
+	width:100px;
+}
 
 #autores #Estudiante1{
 background:#B0C4DE;	
 width:222px;
 height: 320px;
 border-radius: 10px 10px 10px 10px;
-padding: 5px;
+padding: 0px;
 position: left;
 display: inline-block
 
@@ -457,11 +459,11 @@ display: inline-block
 
 #autores #Estudiante2{
 background:#B0C4DE;	
-width:220px;
+width:222px;
 height: 320px;
 border-radius: 10px 10px 10px 10px;
-padding: 5px;
-position: center;
+padding: 0px;
+position: left;
 display: inline-block
 }
 
