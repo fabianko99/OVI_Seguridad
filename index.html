@@ -21,7 +21,23 @@
             <div id="apDiv1">
                 <img src="img/banner.jpg" width="1000" height="168">
                 <div id="apDiv24">O.V.I. SEGURIDAD INFORMÁTICA</div>
+				<div id="apDiv24">
+                	<div id="cuentavisitas"></div>
+						<script>yu=function(id){return document.getElementById(id);}
+							if(localStorage){
+							if(localStorage['visitas']==undefined){
+							localStorage['visitas']=0;
+							}var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+							var num=localStorage['visitas'];
+							var mensaje=num + " visitas";
+							 yu('cuentavisitas').innerHTML=mensaje;}
+                        </script>
+                
+				</div>
             </div>
+			<div id="">
+                
+			</div>
         </header>
         <p>&nbsp;</p>
         <p>&nbsp;</p>

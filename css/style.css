@@ -532,3 +532,7 @@ min-width:130px;
     overflow-x: hidden;
     height: 713px;
 }
+
+#cuentavisitas{
+	text-align: right;
+}
